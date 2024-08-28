@@ -13,6 +13,9 @@ namespace CalculadoraACME2000
             // Crie um programa que solicite 2 números, e a operação desejada(+, -, /, *). 
             // Ao final o programa deve mostrar o resultado com a operação escolhida.
 
+            Console.WriteLine("BEM VINDO AO CALCULADORA ACME 2000");
+            Console.WriteLine("==================================");
+
             Console.Write("Digite o primeiro número: ");
             decimal numero_um = decimal.Parse(Console.ReadLine());
 
